@@ -16,17 +16,17 @@ import javax.persistence.*;
 @ToString
 @Table(name="sys_user")
 public class UserInfoDTO implements Serializable{
-    private String  creator_by;
-    private Date creator_date;
-    private String  update_by;
-    private Date  update_date;
-    private String  user_id;
+    private String  creatorBy;
+    private Date creatorDate;
+    private String  updateBy;
+    private Date  updateDate;
+    private String  userId;
     private String  username;
     private String  password;
     private String  phone;
     private String  email;
     private String  address ;
-    private String  user_decription ;
+    private String  userDecription ;
     private String  status;
     private String  certificateCode ;
     private Date  birthDate ;

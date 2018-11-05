@@ -13,15 +13,15 @@ import java.util.Date;
 @ToString
 @Table(name="sys_sharemessage")
 public class ShareMessageDTO implements Serializable{
-    private String  creator_by;
-    private Date  creator_date;
-    private String  update_by;
-    private Date update_date;
-    private String  message_id;
-    private String  message_title;
-    private String  message_content;
-    private String  message_type;
-    private String  message_read;
+    private String  creatorBy;
+    private Date creatorDate;
+    private String  updateBy;
+    private Date  updateDate;
+    private String  messageId;
+    private String  messageTitle;
+    private String  messageContent;
+    private String  messageType;
+    private String  messageRead;
     private String  status;
 
 }

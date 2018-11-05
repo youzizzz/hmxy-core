@@ -13,12 +13,12 @@ import java.util.Date;
 @ToString
 @Table(name="sys_classification")
 public class ClassIficationDTO implements Serializable{
-    private String  creator_by;
-    private Date creator_date;
-    private String  update_by;
-    private Date  update_date;
-    private String  cf_id;
-    private String  category_name;
+    private String  creatorBy;
+    private Date creatorDate;
+    private String  updateBy;
+    private Date  updateDate;
+    private String  cfId;
+    private String  categoryName;
     private String  status;
 
 

@@ -14,15 +14,15 @@ import java.util.Date;
 @ToString
 @Table(name="sys_area")
 public class AreaDTO implements Serializable{
-    private String  creator_by;
-    private Date creator_date;
-    private String  update_by;
-    private Date  update_date;
-    private String  are_id;
-    private String  city_code;
-    private String  city_name;
-    private String  province_code;
-    private String  province_name;
+    private String  creatorBy;
+    private Date creatorDate;
+    private String  updateBy;
+    private Date  updateDate;
+    private String  areId;
+    private String  cityCode;
+    private String  cityName;
+    private String  provinceCode;
+    private String  provinceName;
     private String  status ;
 
 

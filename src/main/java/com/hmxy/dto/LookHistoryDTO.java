@@ -13,13 +13,13 @@ import java.util.Date;
 @ToString
 @Table(name="sys_lookhistory")
 public class LookHistoryDTO implements Serializable{
-    private String  creator_by;
-    private Date creator_date;
-    private String  update_by;
-    private Date  update_date;
-    private String  lh_id;
-    private String  share_id;
-    private Date  look_time ;
+    private String  creatorBy;
+    private Date creatorDate;
+    private String  updateBy;
+    private Date  updateDate;
+    private String  lhId;
+    private String  shareId;
+    private Date  lookTime ;
     private String  status;
 
 
