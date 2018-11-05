@@ -1,17 +1,11 @@
 package com.hmxy.dto;
 
-import lombok.ToString;
+import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
-@lombok.Setter
-@lombok.Getter
-@ToString
-@Table(name="sys_sharemessage")
+@Data
 public class ShareMessageDTO implements Serializable{
     private String  creatorBy;
     private Date creatorDate;

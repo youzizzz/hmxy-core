@@ -1,20 +1,11 @@
 package com.hmxy.dto;
 
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
-import jdk.nashorn.internal.ir.annotations.Immutable;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
-import lombok.ToString;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import javax.persistence.*;
-/**用户信息表*/
-@Entity
-@lombok.Setter
-@lombok.Getter
-@ToString
-@Table(name="sys_user")
+
+@Data
 public class UserInfoDTO implements Serializable{
     private String  creatorBy;
     private Date creatorDate;
