@@ -5,6 +5,9 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author ZhangHuan
+ */
 @Data
 public class LookHistoryDTO implements Serializable{
     private String  creatorBy;

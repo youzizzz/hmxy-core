@@ -5,8 +5,11 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author ZhangHuan
+ */
 @Data
-public class ShareMessageDTO implements Serializable{
+public class MessageDTO implements Serializable{
     private String  creatorBy;
     private Date creatorDate;
     private String  updateBy;
