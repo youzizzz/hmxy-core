@@ -19,7 +19,7 @@ public class AreaDTO implements Serializable{
     private String  cityName;
     private String  provinceCode;
     private String  provinceName;
-    private String  status ;
+    private char  status ;
 
 
 }
