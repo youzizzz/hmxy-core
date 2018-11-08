@@ -47,7 +47,7 @@ public class Response<T> implements Serializable {
 		return this;
 	}
 
-	public T getT() {
+	public T getData() {
 		return data;
 	}
 

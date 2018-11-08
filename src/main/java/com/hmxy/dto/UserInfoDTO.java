@@ -25,6 +25,7 @@ public class UserInfoDTO implements Serializable{
     private String  certificateCode ;
     private Date  birthDate ;
     private String  Sex;
+    private String jobName;
 
 
 }

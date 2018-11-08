@@ -10,7 +10,18 @@ public enum HttpStatusEnum {
 	/**
 	 * 失败
 	 */
-	error("10001", "失败");
+	error("10001", "失败"),
+
+	/**
+	 * 登录成功
+	 */
+	loginSuccess("100000","登录成功"),
+
+	/**
+	 * 登录失败
+	 */
+	loginError("100001","登录失败");
+
 
 	/**
 	 * code
