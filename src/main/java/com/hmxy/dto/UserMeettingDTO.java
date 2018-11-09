@@ -2,10 +2,11 @@ package com.hmxy.dto;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class UserMeettingDTO {
+public class UserMeettingDTO implements Serializable {
     /**
      * 主键
      */
