@@ -16,5 +16,6 @@ public class ShareDetailDTO implements Serializable{
     private Date  updateDate;
     private String  desId;
     private String  despition;
+    private String  originalLink;
     private String  status;
 }

@@ -1,5 +1,6 @@
 package com.hmxy.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -23,6 +24,7 @@ public class ShareMeetingDTO implements Serializable{
     /**
      * 创建时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date creatorDate;
 
     /**
@@ -33,6 +35,7 @@ public class ShareMeetingDTO implements Serializable{
     /**
      * 更新时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date updateDate;
 
     /**
@@ -63,6 +66,7 @@ public class ShareMeetingDTO implements Serializable{
     /**
      * 开始分享时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date shareStartTime;
 
     /**
@@ -78,6 +82,7 @@ public class ShareMeetingDTO implements Serializable{
     /**
      * 结束分享时间
      */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date shareEndTime;
 
     /**
