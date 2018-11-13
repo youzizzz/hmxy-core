@@ -6,9 +6,14 @@ import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 实体转MAP
+ * @author  laingjie
+ */
 public class BeanUtil
 {
     public static Map<String, Object> beanToMap(Object bean)
@@ -29,7 +34,9 @@ public class BeanUtil
                 Object result = readMethod.invoke(bean, new Object[0]);
                 if (result != null) {
                     returnMap.put(propertyName, result);
-                } else {
+                } else if("java.util.Date".equals(descriptor.getPropertyType().getName())){
+                    returnMap.put(propertyName, null);
+                }else {
                     returnMap.put(propertyName, "");
                 }
             }
