@@ -6,16 +6,16 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class UserMeettingDTO implements Serializable {
+public class SharerMeettingDTO implements Serializable {
     /**
      * 主键
      */
     private String muId;
 
     /**
-     * 用户ID
+     * 分享者ID
      */
-    private String userId;
+    private String sharerId;
 
     /**
      * 分享会ID

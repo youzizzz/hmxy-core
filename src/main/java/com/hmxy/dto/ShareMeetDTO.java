@@ -10,7 +10,7 @@ import java.util.Date;
  * @author ZhangHuan
  */
 @Data
-public class ShareMeetingDTO implements Serializable{
+public class ShareMeetDTO implements Serializable{
     /**
      * 主键
      */
