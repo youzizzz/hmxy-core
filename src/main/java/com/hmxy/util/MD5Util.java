@@ -107,4 +107,9 @@ public class MD5Util {
             return null;
         }
     }
+
+    public static void main(String[] args) {
+        String ss = md5Hex("12345678");
+        System.out.println(ss);
+    }
 }
