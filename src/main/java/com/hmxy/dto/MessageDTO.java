@@ -24,4 +24,8 @@ public class MessageDTO implements Serializable{
     private String  messageRead;
     private String  status;
 
+
+
+    private String pointTime;
+
 }
